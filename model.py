@@ -1,6 +1,15 @@
 from __future__ import annotations
 
 
+class CalculatedRatios:
+    calculated_market: float
+    calculated_auction: float
+
+    def __init__(self, c_market=0, c_auction=0):
+        self.calculated_market = c_market
+        self.calculated_auction = c_auction
+
+
 class Ratios:
     market_ration: int
     auction_ration: int
