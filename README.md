@@ -14,7 +14,7 @@ and `conda activate market_auction_value`) simply run on root:
     
     flask run
 
-## to run the tests
+## To run the unit tests
 With environment activated run on root:
   
     pytest -v
