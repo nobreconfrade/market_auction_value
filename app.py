@@ -3,7 +3,7 @@ from pathlib import Path
 
 from flask import Flask
 
-from controller import setup_database
+from database import setup_database
 from view import views
 
 

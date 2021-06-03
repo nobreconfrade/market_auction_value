@@ -1,6 +1,6 @@
 from flask import render_template, Blueprint, request
 
-from controller import database
+from database import database
 from model import CalculatedRatios
 
 views = Blueprint('views', __name__, template_folder='templates')
