@@ -10,8 +10,11 @@ readme are all the instructions needed to run the code on your env.
 
 ## To run the app
 With the miniconda installed and with the environment activated (`conda env create -f environment.yml` 
-and `conda activate market_auction_value`) simply run:
+and `conda activate market_auction_value`) simply run on root:
     
     flask run
 
 ## to run the tests
+With environment activated run on root:
+  
+    pytest -v
