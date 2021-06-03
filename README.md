@@ -1,7 +1,7 @@
 # market_auction_value
 
 Hello, this is the code for the market auction value challenge. Here in the
-readme are all the instructions needed to run the code on your env.
+README are all the instructions needed to run the code on your environment.
 
 ## First things first
 - Ensure you have [miniconda installed](https://docs.conda.io/en/latest/miniconda.html)
